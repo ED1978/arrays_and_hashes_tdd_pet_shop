@@ -48,3 +48,7 @@ def remove_pet_by_name(pet_shop, pet)
     end
   end
 end
+
+def customer_cash(customer)
+  return customer[:cash]
+end
